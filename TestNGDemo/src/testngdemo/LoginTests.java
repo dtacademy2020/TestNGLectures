@@ -1,6 +1,7 @@
 package testngdemo;
 
-import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.*;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,29 +15,36 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class LoginTests {
+	
 	WebDriver driver;
+	
+	
+	
 	
 	@BeforeSuite
 	public void beforeSuite() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Duotech\\Downloads\\chromedriver\\chromedriver.exe");
-		
+
+	
 	}
 	
 	@BeforeMethod
 	public void beforeMethod() {
+		
 		driver = new ChromeDriver();
 		driver.get("https://www.phptravels.net/admin");
+		
 	}
 	
 	
 	
 	
 	
-	@Test
+	@Test (groups = {"smoke"})
 	public void positiveLogin() {
 			
 		 		
-		//Type in Email Address and Password
+		//Type in correct Email Address and Password
 		
 		driver.findElement(By.name("email")).sendKeys("admin@phptravels.com");
 		driver.findElement(By.name("password")).sendKeys("demoadmin");
@@ -47,21 +55,23 @@ public class LoginTests {
 
 		//Verify successful login
 		assertEquals(driver.getTitle(), "Dashboard");
+		assertTrue(driver.getTitle().contains("Dashboard"));
+		//assertFalse(condition);
 		
 	
 	}
 	
-	@Test
+	@Test (groups = {"smoke"})
 	public void negativeLogin() throws InterruptedException {
 			
 		 		
-		//Type in Email Address and Password
+		//Type in wrong Email Address and Password
 		
 		driver.findElement(By.name("email")).sendKeys("ad@phptravels.com");
 		driver.findElement(By.name("password")).sendKeys("demo");
 		//Click login button
 		driver.findElement(By.xpath("//span[.='Login']")).click();
-		//Add explicit wait for title
+		
 	
 		Thread.sleep(3000);
 		//Verify unsuccessful login

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="UI Tests Suite">
+ 
+  <test  name="UI Tests">
+    
+    <packages>
+    
+    <package name="io.duotech.uiTests"></package>
+    <package name="july3"></package>
+    
+    </packages>
+    
+    
+   
+  </test> <!-- Test -->
+  
+   
+  
+  
+</suite> <!-- Suite -->

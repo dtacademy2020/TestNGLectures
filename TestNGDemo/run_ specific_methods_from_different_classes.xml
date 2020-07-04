@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Login Tests">
+ 
+  <test  name="Login Tests">
+    
+    <classes>
+        
+	<class name="testngdemo.DatabaseTests">
+	
+	<methods>
+	
+	<exclude name="testCase2DB" />
+	
+	
+	</methods>
+	
+	</class> 
+	
+	
+	
+	<class name="io.duotech.uiTests.Login">
+	
+	<methods>
+	
+	<include name="positiveLogin" />
+	
+	</methods>
+	
+	</class> 
+	
+	
+	
+	
+	
+	<class name="july3.TestOrder">
+	
+	<methods>
+	
+	<include name="xTest" />
+	<include name="aTest" />
+	
+	</methods>
+	
+	</class> 
+	
+	
+	
+	   
+        
+    </classes>
+    
+    
+   
+  </test> <!-- Test -->
+  
+   
+  
+  
+</suite> <!-- Suite -->

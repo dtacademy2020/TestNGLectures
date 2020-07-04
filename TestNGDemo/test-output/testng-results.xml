@@ -1,41 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17838" started-at="2020-07-01T21:38:44 EDT" finished-at="2020-07-01T21:39:02 EDT">
+  <suite name="Default suite" duration-ms="32" started-at="2020-07-04T00:01:13 EDT" finished-at="2020-07-04T00:01:13 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17838" started-at="2020-07-01T21:38:44 EDT" finished-at="2020-07-01T21:39:02 EDT">
-      <class name="testngdemo.LoginTests">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testngdemo.LoginTests@65e2dbf3]" name="beforeSuite" is-config="true" duration-ms="7" started-at="2020-07-01T21:38:44 EDT" finished-at="2020-07-01T21:38:44 EDT">
+    <test name="Default test" duration-ms="32" started-at="2020-07-04T00:01:13 EDT" finished-at="2020-07-04T00:01:13 EDT">
+      <class name="io.duotech.uiTests.DB">
+        <test-method status="PASS" signature="TC_001_Database_verifyDbCredentials()[pri:0, instance:io.duotech.uiTests.DB@210366b4]" name="TC_001_Database_verifyDbCredentials" duration-ms="6" started-at="2020-07-04T00:01:13 EDT" finished-at="2020-07-04T00:01:13 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testngdemo.LoginTests@65e2dbf3]" name="beforeMethod" is-config="true" duration-ms="5208" started-at="2020-07-01T21:38:44 EDT" finished-at="2020-07-01T21:38:50 EDT">
+        </test-method> <!-- TC_001_Database_verifyDbCredentials -->
+        <test-method status="PASS" signature="TC_002_Database_verifyConnection()[pri:0, instance:io.duotech.uiTests.DB@210366b4]" name="TC_002_Database_verifyConnection" duration-ms="1" started-at="2020-07-04T00:01:13 EDT" finished-at="2020-07-04T00:01:13 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="negativeLogin()[pri:0, instance:testngdemo.LoginTests@65e2dbf3]" name="negativeLogin" duration-ms="3462" started-at="2020-07-01T21:38:50 EDT" finished-at="2020-07-01T21:38:53 EDT">
+        </test-method> <!-- TC_002_Database_verifyConnection -->
+        <test-method status="PASS" signature="testCase1DB()[pri:0, instance:io.duotech.uiTests.DB@210366b4]" name="testCase1DB" duration-ms="0" started-at="2020-07-04T00:01:13 EDT" finished-at="2020-07-04T00:01:13 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- negativeLogin -->
-        <test-method status="PASS" signature="teardownMethod()[pri:0, instance:testngdemo.LoginTests@65e2dbf3]" name="teardownMethod" is-config="true" duration-ms="727" started-at="2020-07-01T21:38:53 EDT" finished-at="2020-07-01T21:38:54 EDT">
+        </test-method> <!-- testCase1DB -->
+        <test-method status="PASS" signature="testCase2DB()[pri:0, instance:io.duotech.uiTests.DB@210366b4]" name="testCase2DB" duration-ms="1" started-at="2020-07-04T00:01:13 EDT" finished-at="2020-07-04T00:01:13 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testngdemo.LoginTests@65e2dbf3]" name="beforeMethod" is-config="true" duration-ms="4399" started-at="2020-07-01T21:38:54 EDT" finished-at="2020-07-01T21:38:58 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="positiveLogin()[pri:0, instance:testngdemo.LoginTests@65e2dbf3]" name="positiveLogin" duration-ms="3240" started-at="2020-07-01T21:38:58 EDT" finished-at="2020-07-01T21:39:01 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- positiveLogin -->
-        <test-method status="PASS" signature="teardownMethod()[pri:0, instance:testngdemo.LoginTests@65e2dbf3]" name="teardownMethod" is-config="true" duration-ms="765" started-at="2020-07-01T21:39:01 EDT" finished-at="2020-07-01T21:39:02 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-      </class> <!-- testngdemo.LoginTests -->
+        </test-method> <!-- testCase2DB -->
+      </class> <!-- io.duotech.uiTests.DB -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
