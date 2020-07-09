@@ -1,29 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32" started-at="2020-07-04T00:01:13 EDT" finished-at="2020-07-04T00:01:13 EDT">
+  <suite name="Default suite" duration-ms="35903" started-at="2020-07-08T21:56:43 EDT" finished-at="2020-07-08T21:57:19 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32" started-at="2020-07-04T00:01:13 EDT" finished-at="2020-07-04T00:01:13 EDT">
-      <class name="io.duotech.uiTests.DB">
-        <test-method status="PASS" signature="TC_001_Database_verifyDbCredentials()[pri:0, instance:io.duotech.uiTests.DB@210366b4]" name="TC_001_Database_verifyDbCredentials" duration-ms="6" started-at="2020-07-04T00:01:13 EDT" finished-at="2020-07-04T00:01:13 EDT">
+    <test name="Default test" duration-ms="35903" started-at="2020-07-08T21:56:43 EDT" finished-at="2020-07-08T21:57:19 EDT">
+      <class name="july8.DataProviderDemo">
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:july8.DataProviderDemo@1d16f93d]" name="search" duration-ms="7397" started-at="2020-07-08T21:56:43 EDT" data-provider="presidents" finished-at="2020-07-08T21:56:50 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_001_Database_verifyDbCredentials -->
-        <test-method status="PASS" signature="TC_002_Database_verifyConnection()[pri:0, instance:io.duotech.uiTests.DB@210366b4]" name="TC_002_Database_verifyConnection" duration-ms="1" started-at="2020-07-04T00:01:13 EDT" finished-at="2020-07-04T00:01:13 EDT">
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:july8.DataProviderDemo@1d16f93d]" name="search" duration-ms="6366" started-at="2020-07-08T21:56:50 EDT" data-provider="presidents" finished-at="2020-07-08T21:56:57 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_002_Database_verifyConnection -->
-        <test-method status="PASS" signature="testCase1DB()[pri:0, instance:io.duotech.uiTests.DB@210366b4]" name="testCase1DB" duration-ms="0" started-at="2020-07-04T00:01:13 EDT" finished-at="2020-07-04T00:01:13 EDT">
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:july8.DataProviderDemo@1d16f93d]" name="search" duration-ms="5726" started-at="2020-07-08T21:56:57 EDT" data-provider="presidents" finished-at="2020-07-08T21:57:03 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Trump]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase1DB -->
-        <test-method status="PASS" signature="testCase2DB()[pri:0, instance:io.duotech.uiTests.DB@210366b4]" name="testCase2DB" duration-ms="1" started-at="2020-07-04T00:01:13 EDT" finished-at="2020-07-04T00:01:13 EDT">
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:july8.DataProviderDemo@1d16f93d]" name="search" duration-ms="5466" started-at="2020-07-08T21:57:03 EDT" data-provider="presidents" finished-at="2020-07-08T21:57:08 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Путин]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase2DB -->
-      </class> <!-- io.duotech.uiTests.DB -->
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:july8.DataProviderDemo@1d16f93d]" name="search" duration-ms="5304" started-at="2020-07-08T21:57:08 EDT" data-provider="presidents" finished-at="2020-07-08T21:57:13 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[أَلِفْ مَدَّة]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:july8.DataProviderDemo@1d16f93d]" name="search" duration-ms="5608" started-at="2020-07-08T21:57:13 EDT" data-provider="presidents" finished-at="2020-07-08T21:57:19 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[김]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- july8.DataProviderDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

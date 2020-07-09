@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Login Tests]">
-  <test thread-count="5" name="Login Tests(failed)">
-    <groups>
-      <run>
-        <include name="smoke"/>
-        <include name="db"/>
-      </run>
-    </groups>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngdemo.LoginTests">
+      <class name="july8.Parametrization">
         <methods>
-          <include name="negativeLogin"/>
-          <include name="positiveLogin"/>
+          <include name="login" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testngdemo.LoginTests -->
+      </class> <!-- july8.Parametrization -->
     </classes>
-  </test> <!-- Login Tests(failed) -->
-</suite> <!-- Failed suite [Login Tests] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
